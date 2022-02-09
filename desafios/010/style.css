@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf')format('opentype');
+}
+body {
+    background-color: #78ca7b;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    height: 0;
+    
+    
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #8EF593, #447546);
+    margin: auto;
+    height: 200px;
+    color: white;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+}
+h1 {
+    
+    text-align: center;
+    margin: 0;
+    padding-top: 10px ;
+}
+.sec01 {
+    background-color: white;
+    margin: 0px 180px 0px 180px;
+    padding: 50px;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+}
+.sec03 {
+    background-color: white;
+    margin: 0px 180px 0px 180px;
+    padding: 50px;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+}
+
+.art01 {
+    background-color: #7FDB84;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+    
+}
+
+.p1 {
+    text-align: center;
+}
+
+nav > a {
+    font-weight: bold;
+    color: aliceblue;
+    margin: 15px;
+    text-decoration: none;
+    
+}
+nav {
+    margin-top: 100px;
+
+}
+h2 {
+    font-family: 'idroid';
+    font-size: 30px;
+    color: rgb(8, 83, 8);
+    background-image: linear-gradient(to right, #92ec9583, white );
+}
+.video {
+    background-color: #29472a;
+    
+    margin: 0px 180px 0px 180px;
+    padding: 50px 0px 50px 50px ;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+    text-align: center;
+    
+}
+.video2 {
+    
+    margin: 0 auto;
+    margin: 0px 100px 0px 100px;
+    padding: 5px 0px 5px 50px ;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+}
+     
+
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 12px;
+    height: calc(1.2em * 8);
+}
+.p2 {
+    text-align: start;
+    background-color: #447546;
+    height: 25px;
+    padding: 10px 10px 0px 10px;
+    margin-bottom: 0;
+    border-radius: 10px 10px 0 0px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 2px  2px 4px 1px rgba(0, 0, 0, 0.479);
+    
+
+}
+li > a {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    text-decoration: none;
+
+}
+li > a:hover {
+    font-weight: lighter;
+    color: rgb(252, 255, 80);
+}
+a {
+    font-weight: bold;
+    color: rgb(62, 99, 55);
+    margin: 15px;
+    text-decoration: none;
+}
+a:hover {
+    
+    color: rgb(38, 117, 62);
+}
+footer {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 78, 1);
+    padding: 2px;
+    margin: 0;
+}
